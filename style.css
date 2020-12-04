@@ -2,24 +2,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
-
+/* 
 * {
-  margin: 0px;
-  padding: 0px;
-}
+  margin: 0px !important;
+  padding: 0px !important;
+} */
 
 .container {
-  width: 100%;
-  margin: auto;
+  padding: 0 !important;
+  /* margin: 0 !important; */
 }
 
 .header {
-  border: 0.5px solid #9f9f9f;
+  /* border: 0.5px solid #9f9f9f; */
   padding: 10px;
   display: flex;
-  height: 70px;
+  height: 90px;
   font-family: "Rubik", sans-serif;
   justify-content: space-between;
+}
+.line {
+  height: 0px;
+  border: 0.5px solid #9f9f9f;
 }
 .logo {
   font-weight: bold;
@@ -36,6 +40,13 @@
   flex-direction: row;
   flex: 2;
 }
+.home:hover,
+.product:hover,
+.your-cart:hover,
+.history:hover {
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
 .icon {
   padding-top: 5px;
   margin-top: 15px;
@@ -46,42 +57,99 @@
 }
 .box2 {
   padding: 10px;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   display: flex;
   height: 1000px;
   font-family: "Rubik", sans-serif;
 }
 .box2a {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   padding: 10px;
   display: flex;
   flex: 1;
   flex-direction: column;
 }
 .box2a1 {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   flex: 1;
   text-align: center;
+}
+.promo-header {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 1.7em;
+  font-weight: bold;
 }
 .box2a2 {
   text-align: center;
   align-content: center;
-  border: 3px solid black;
-  flex: 3;
+  /* border: 3px solid black; */
+  flex: 2.5;
 }
 .coupon {
-  margin-left: 90px;
+  position: absolute;
+  margin-left: 60px;
   margin-top: 40px;
   margin-bottom: 40px;
   width: 200px;
-  height: 300px;
+  height: 350px;
   border-radius: 20px;
   background-color: #ffcb65;
+}
+.coupon-back2 {
+  position: absolute;
+  width: 218px;
+  height: 292px;
+  background-color: black;
+  margin-top: 70px;
+  left: 410px;
+  border-radius: 15px;
+}
+.coupon-back1 {
+  position: absolute;
+  background-color: #895537;
+  width: 200px;
+  height: 250px;
+  margin-top: 90px;
+  left: 445px;
+  border-radius: 15px;
+}
+.coupon-title {
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.coupon-desc {
+  font-size: 10px;
+  padding: 5px 15px 15px 15px;
+}
+.coupon-line {
+  height: 0px;
+  border: 0.2px solid black;
+  border-style: dashed;
+}
+.coupon-code {
+  padding-top: 20px;
+  font-size: 0.7em;
+}
+.coupon-code2 {
+  padding-top: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.promo-button button {
+  position: relative;
+  top: 400px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  color: antiquewhite;
+  background-color: #6a4029;
 }
 .box2a3 {
   font-size: 14px;
   line-height: 25px;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   flex: 1;
 }
 .box2b {
@@ -93,7 +161,7 @@
 .box2b1 {
   font-family: "Rubik", sans-serif;
   color: #9f9f9f;
-  height: 30px;
+  height: 50px;
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
@@ -109,17 +177,35 @@
   border-bottom: 3px solid black;
 }
 .box2b2 {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex: 1;
 }
+
 .product-box {
-  border: 3px solid black;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 3px solid white;
   width: 180px;
   height: 260px;
+}
+.image {
+  position: relative;
+  border-radius: 50%;
+}
+.product-box .square {
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 30px;
+  width: 160px;
+  height: 220px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
 }
 .footer {
   font-family: "Rubic", sans-serif;
@@ -132,6 +218,7 @@
   flex: 3;
 }
 .company-icon {
+  padding-bottom: 15px;
   font-weight: bold;
   font-size: 18px;
 }
