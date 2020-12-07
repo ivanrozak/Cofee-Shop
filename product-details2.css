@@ -1,0 +1,236 @@
+/* font selector */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+/* Color Selector
+orange: #FFBA33
+brown: #6A4029
+grey: #4F5665
+strong-grey: #0B132A
+transparent-grey: #9F9F9F
+white: #FFFFFF
+black: #000000
+copyright: #AFB5C0
+*/
+
+/* ========== HEADER ======================== */
+
+header {
+  /* border: 0.5px solid #9f9f9f; */
+  padding: 10px;
+  display: flex;
+  height: 90px;
+  font-family: "Rubik", sans-serif;
+  justify-content: space-between;
+}
+header .container {
+  display: flex;
+  height: 70px;
+}
+.header-logo {
+  padding-top: 15px;
+  padding-left: 15px;
+  justify-content: space-evenly;
+  font-weight: 900;
+  font-size: 1.2em;
+  flex: 1.2;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 3;
+  /* border: 2px solid black; */
+}
+.header-icon {
+  justify-content: space-evenly;
+  padding-top: 15px;
+  display: flex;
+  flex: 1;
+}
+.line {
+  height: 0px;
+  border: 0.5px solid #9f9f9f;
+}
+.line-2 {
+  height: 0px;
+  border: 0.5px solid black;
+}
+.line-3 {
+  height: 20px;
+  background-color: #6a4029;
+  border-radius: 0px 0px 20px 20px;
+  /* border: 9px solid #6a4029; */
+}
+.line-4 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 0px;
+  border: 0.5px solid #9f9f9f;
+}
+.line-5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 0px;
+  border: 0.5px solid #9f9f9f;
+}
+.header-menu ul {
+  display: flex;
+  margin-left: 0;
+  width: 80%;
+  height: 100%;
+  justify-content: space-evenly;
+  /* border: 2px solid rgb(145, 24, 24); */
+}
+.header-menu ul li {
+  list-style: none;
+  padding-top: 15px;
+  text-decoration: none;
+  color: #4f5665;
+  text-align: center;
+  text-decoration-color: #4f5665;
+  /* border: 2px solid rgb(12, 160, 135); */
+}
+li a {
+  text-decoration: none;
+  color: #4f5665;
+  /* border: 2px solid black; */
+}
+li a:hover {
+  text-decoration: none;
+  color: #6a4029;
+  font-weight: 900;
+}
+/* ========== CONTENT ======================== */
+main {
+  /* background: url(coffee-bg2.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto; */
+  font-family: "Rubik";
+}
+.details-top {
+  display: flex;
+}
+.details-top-left {
+  flex: 1;
+  height: 500px;
+  border: 2px solid black;
+  padding: 20px 20px;
+}
+.delivery-props1 {
+  height: 120px;
+  padding: 20px 20px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.34);
+  border-radius: 20px;
+  background-color: #ffff;
+}
+.details-top-right {
+  flex: 1.5;
+  height: 500px;
+  border: 2px solid black;
+  padding: 20px 20px;
+}
+.details-bottom {
+  display: flex;
+}
+.details-bottom-left {
+  flex: 1;
+  padding: 20px 30px;
+  text-align: center;
+  height: 160px;
+  margin: 30px 30px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.34);
+  border-radius: 20px;
+  background-color: #ffff;
+}
+.details-prop {
+  display: flex;
+  justify-content: space-evenly;
+}
+.details-bottom-right {
+  flex: 2;
+  display: flex;
+  padding: 20px 30px;
+  text-align: center;
+  height: 160px;
+  margin: 30px 30px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.34);
+  border-radius: 20px;
+  background-color: #ffff;
+}
+.details-prop3 {
+  flex: 1.2;
+}
+.details-prop4 {
+  flex: 2.3;
+  text-align: left;
+  padding: 20px 20px;
+}
+.details-prop5 {
+  flex: 1.5;
+  padding: 40px 20px;
+  font-weight: 900;
+}
+.details-prop6 {
+  padding: 40px 20px;
+  flex: 1;
+}
+.details-prop2 {
+  border-radius: 50%;
+  background-color: #ffba33;
+  width: 50px;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  height: 50px;
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+/* ========== FOOTER ======================== */
+footer {
+  font-family: "Rubik";
+}
+.footer-content {
+  height: 300px;
+  padding-top: 30px;
+  /* border: 2px solid black; */
+  display: flex;
+}
+.footer-portfolio {
+  padding-top: 30px;
+  /* border: 2px solid black; */
+  flex: 4;
+}
+.company-icon {
+  padding-bottom: 10px;
+}
+.company-profile {
+  max-width: 270px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.footer-socmed {
+  display: flex;
+}
+.footer-product {
+  /* border: 2px solid black; */
+  flex: 1;
+  padding-top: 30px;
+}
+.footer-engage {
+  /* border: 2px solid black; */
+  flex: 1;
+  padding-top: 30px;
+}
+.footer-product li {
+  list-style: none;
+  padding-top: 3px;
+  text-decoration: none;
+  /* border: 2px solid black; */
+}
+.footer-engage li {
+  list-style: none;
+  padding-top: 3px;
+  text-decoration: none;
+  /* border: 2px solid black; */
+}
