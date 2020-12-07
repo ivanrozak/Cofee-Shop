@@ -112,12 +112,12 @@ main {
 }
 .details-top-left {
   flex: 1;
-  height: 500px;
-  border: 2px solid black;
+  height: 600px;
+  /* border: 2px solid black; */
   padding: 20px 20px;
 }
 .delivery-props1 {
-  height: 120px;
+  height: 300px;
   padding: 20px 20px;
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.34);
   border-radius: 20px;
@@ -125,9 +125,9 @@ main {
 }
 .details-top-right {
   flex: 1.5;
-  height: 500px;
-  border: 2px solid black;
-  padding: 20px 20px;
+  height: 600px;
+  /* border: 2px solid black; */
+  padding: 20px 40px;
 }
 .details-bottom {
   display: flex;
