@@ -81,7 +81,7 @@ header .container {
   justify-content: space-evenly;
   /* border: 2px solid rgb(145, 24, 24); */
 }
-.header-menu ul li {
+.header-menu li {
   list-style: none;
   padding-top: 15px;
   text-decoration: none;
@@ -220,4 +220,32 @@ footer {
   padding-top: 3px;
   text-decoration: none;
   /* border: 2px solid black; */
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 150px;
+  }
+  header .container {
+    padding-top: 0px;
+    flex-direction: column;
+    height: 100px;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .header-logo {
+    padding-top: 0px;
+    padding-left: 150px;
+  }
+  .header-icon {
+    padding-top: 15px;
+  }
+  main {
+    background-size: auto auto;
+  }
+  .box-payment {
+    flex-direction: column;
+    height: auto;
+  }
 }

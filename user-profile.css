@@ -69,7 +69,7 @@ header .container {
   justify-content: space-evenly;
   /* border: 2px solid rgb(145, 24, 24); */
 }
-.header-menu ul li {
+.header-menu li {
   list-style: none;
   padding-top: 15px;
   text-decoration: none;
@@ -112,6 +112,9 @@ main {
   padding: 80px 20px;
   text-align: center;
   /* border: 3px solid rgb(49, 37, 19); */
+}
+.sub-box-user-profile-kiri button {
+  font-weight: 700;
 }
 .sub-box-user-profile-kanan {
   flex: 2.2;
@@ -186,4 +189,35 @@ footer {
   padding-top: 3px;
   text-decoration: none;
   /* border: 2px solid black; */
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 150px;
+  }
+  header .container {
+    padding-top: 0px;
+    flex-direction: column;
+    height: 100px;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .header-logo {
+    padding-top: 0px;
+    padding-left: 150px;
+  }
+  .header-icon {
+    padding-top: 15px;
+  }
+  main {
+    background-size: auto auto;
+  }
+  .box-user-profile {
+    height: auto;
+  }
+  .sub-box-user-profile {
+    flex-direction: column;
+    height: auto;
+  }
 }

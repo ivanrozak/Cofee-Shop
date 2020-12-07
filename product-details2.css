@@ -81,7 +81,7 @@ header .container {
   justify-content: space-evenly;
   /* border: 2px solid rgb(145, 24, 24); */
 }
-.header-menu ul li {
+.header-menu li {
   list-style: none;
   padding-top: 15px;
   text-decoration: none;

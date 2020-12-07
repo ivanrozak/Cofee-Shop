@@ -85,6 +85,7 @@
   align-content: center;
   /* border: 3px solid black; */
   flex: 2.5;
+  position: relative;
 }
 .coupon {
   position: absolute;
@@ -102,7 +103,7 @@
   height: 292px;
   background-color: black;
   margin-top: 70px;
-  left: 410px;
+  left: 60px;
   border-radius: 15px;
 }
 .coupon-back1 {
@@ -111,7 +112,7 @@
   width: 200px;
   height: 250px;
   margin-top: 90px;
-  left: 445px;
+  left: 90px;
   border-radius: 15px;
 }
 .coupon-title {
